@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/biodata"
+        tools:layout_editor_absoluteY="-126dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama:\nCHELVIN"
+        android:textStyle="bold"
+        android:background="#ff0000"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM:\n191103524"
+        android:background="#0831b4"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas:\nA4"
+        android:background="#08ab2e"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:\n Chelvin120799@gmail.com"
+        android:background="#f8c600"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat:\n Jl. Sui Raya Dalam Komp. Bumi Batara 3 No B.53"
+        android:background="#c351e4"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+</LinearLayout>
